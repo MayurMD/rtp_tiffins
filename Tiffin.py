@@ -4,7 +4,7 @@ import urllib
 from bs4 import BeautifulSoup
 
 class Tiffin:
-    'Common base class used to define tiffins. It stores all the attributes and all the methods that each tiffin should have.'
+    'This is the base class used to define all the tiffins.'
     title = ''
     description = ''
     email=''
