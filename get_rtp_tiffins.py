@@ -76,7 +76,7 @@ def store_tiffin_list(tiffin_list):
 
 
     try:
-        conn = psycopg2.connect("dbname='wake' user='gpadmin' host='172.16.20.120' ")
+        conn = psycopg2.connect("dbname='wake' user='gpadmin' host='' ")
     except Exception as e:
         print "inside error"+str(e)
 
