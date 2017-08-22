@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 import subprocess
+=======
+#add feature4
+>>>>>>> add feature4
 import re
 import urllib
 from bs4 import BeautifulSoup
